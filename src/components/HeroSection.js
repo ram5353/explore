@@ -28,7 +28,7 @@ function HeroSection({
               flexDirection: imgStart === "start" ? "row-reverse" : "row",
             }}
           >
-            <div className="col">
+            <div className="coll">
               <div className="home__hero-text-wrapper">
                 <div className="top-line">{topLine}</div>
                 <h1 className={lightText ? "heading" : "heading dark"}>
@@ -50,7 +50,7 @@ function HeroSection({
                 </Link>
               </div>
             </div>
-            <div className="col">
+            <div className="coll">
               <div className="home__hero-img-wrapper">
                 <img src={img} alt={alt} className="home__hero-img" />
               </div>

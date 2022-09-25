@@ -2,7 +2,7 @@
     --primary: #fff;
   }
   
-  .btn {
+  .bttn {
     padding: 8px 20px;
     border-radius: 4px;
     outline: none;
@@ -67,7 +67,7 @@
     transition: all 0.2s ease-out;
   }
   
-  .btn-link {
+  .bttn-link {
     display: flex;
     justify-content: center;
     align-items: center;

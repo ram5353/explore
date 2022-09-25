@@ -16,7 +16,7 @@
     align-content: stretch;
   }
   
-  .col {
+  .coll {
     margin-bottom: 15px;
     padding-right: 15px;
     padding-left: 15px;
@@ -95,7 +95,7 @@
       padding-bottom: 65px;
     }
   
-    .col {
+    .coll {
       max-width: 100%;
       flex-basis: 100%;
     }
