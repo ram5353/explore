@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <>
       <IconContext.Provider value={{color: '#fff'}}>
-        <div className="navbar">
+        <div className="navbarr">
           <div className="navbar-container container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
               <MdFingerprint className="navbar-icon" />
@@ -41,8 +41,8 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/services" className="nav-links">
-                  Services
+                <Link to="/budget" className="nav-links">
+                  Budget
                 </Link>
               </li>
               <li className="nav-item">

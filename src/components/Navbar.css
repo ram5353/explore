@@ -1,4 +1,4 @@
-.navbar {
+.navbarr {
     background: #1c2237;
     height: 80px;
     display: flex;
@@ -47,6 +47,7 @@
     list-style: none;
     text-align: center;
     justify-content: end;
+    margin-bottom: 0;
   }
   
   .nav-item {
